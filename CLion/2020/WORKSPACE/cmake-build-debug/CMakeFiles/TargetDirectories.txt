@@ -1,0 +1,3 @@
+C:/Users/plane/CLionProjects/WORKSPACE/cmake-build-debug/CMakeFiles/WORKSPACE.dir
+C:/Users/plane/CLionProjects/WORKSPACE/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/plane/CLionProjects/WORKSPACE/cmake-build-debug/CMakeFiles/rebuild_cache.dir

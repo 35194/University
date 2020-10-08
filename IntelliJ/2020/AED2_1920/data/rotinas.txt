@@ -1,0 +1,20 @@
+DATA;ROTINA;ID_PESSOA
+28/3/2019/6/45;Acordar;1
+28/3/2019/7/30;Tomar pequeno almoço;1
+28/3/2019/13/0;Almoçar;1
+28/3/2019/21/30;Dormir;1
+28/3/2019/6/45;Acordar;2
+28/3/2019/7/30;Tomar pequeno almoço;2
+28/3/2019/13/0;Almoçar;2
+28/3/2019/19/30;Jantar;2
+28/3/2019/20/30;Programar;2
+28/3/2019/23/30;Dormir;2
+28/3/2019/6/45;Acordar;3
+28/3/2019/7/30;Correr;3
+28/3/2019/13/0;Almoçar;3
+28/3/2019/19/30;Jantar;3
+28/3/2019/20/30;Programar;3
+28/3/2019/22/30;Programar mais;3
+28/3/2019/1/30;Dormir;3
+
+

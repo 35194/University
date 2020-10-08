@@ -1,0 +1,28 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+windows.h
+-
+sys/time.h
+-
+
+C:/Users/plane/CLionProjects/AED1/pr/pr01.c
+pr01.h
+C:/Users/plane/CLionProjects/AED1/pr/pr01.h
+
+C:/Users/plane/CLionProjects/AED1/pr/pr01.h
+../libs_src/lib_util.h
+C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
+

@@ -1,0 +1,6 @@
+Class name: LP1
+Number of students: 4
+Ana Sa	 2	 11.00
+Carlos Santos	 4	 9.00
+Joao Silva	 1	 8.00
+Jose Pinto	 3	 10.00

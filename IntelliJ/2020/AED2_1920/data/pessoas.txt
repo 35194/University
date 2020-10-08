@@ -1,0 +1,7 @@
+CC;NOME;IDADE;ID_CIDADE
+1;Ricardo;23;1;
+2;Filipe;18;1;
+3;João;26;2;
+4;Carlos;23;2;
+5;Ana;26;3;
+6;Maria;23;3;

@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.12)
+project(LP1 C)
+
+
+file(GLOB SOURCES
+        main.c
+        pr/*.c
+        tp/*.c
+        )
+
+set(CMAKE_C_STANDARD 99)
+
+add_executable(LP1 ${SOURCES} ${SOURCE_FILES} tp/tp02.c tp/tp02.h pr/pr01.c pr/pr01.h tp/tp03.c tp/tp03.h pr/pr02.c pr/pr02.h)

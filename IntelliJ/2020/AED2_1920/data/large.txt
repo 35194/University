@@ -1,0 +1,71 @@
+1. Considere a seguinte tabela que mapeia notas qualitativas em quantitativas: Excelente-20; Muito Bom-
+18; Bom-16; Suficiente-12; Insuficiente-7; Fraco-3. Escreva um cliente para uma tabela de símbolos
+(Symbol Table - ST) que lê uma série de notas qualitativas e que calcula a média quantitativa, 0-20,
+correspondente a essa série.
+2. Considere a API básica de tabelas de símbolos. Sugira implementações das primitivas: void delete(key);
+boolean contains(key); boolean isEmpty(), com base nas primitivas put(), get() e size().
+3. Faça o rastreio do processo de inserção da sequência de chaves: E A S Y Q U E S T I O N, na tabela de
+símbolos não ordenada, usando a classe SequentialSearchST. Faça uma análise do número de
+comparações envolvidas.
+4. Qual é o número médio de chaves distintas que o cliente FrequencyCounter irá encontrar para N
+números inteiros não negativos, gerados aleatoriamente, menores ou iguais a 1000, para N=10, 102
+, 103 104 105 e 106
+5. Faça o rastreio do processo de inserção da sequência de chaves: E A S Y Q U E S T I O N, na tabela de
+símbolos ordenada, usando a classe BinarySearchST. Faça uma análise do número de comparações
+envolvidas.
+6. Justifique, apropriadamente, qual das implementações de ST pensa que será mais adequada para uma
+aplicação que, de um modo aleatório e intervalado, efetua:
+6.1. Operações put() de inserção: 103
+; operações get() de pesquisa: 106
+6.2. Operações put() de inserção: 106
+; operações get() de pesquisa: 103
+7. Seja f() uma função monotonamente crescente com f(0) < 0 e f(N) > 0. Encontre o inteiro mais pequeno i
+tal que f(i) > 0. Escreva um algoritmo que faça O(log N) chamadas a f()1
+8. Floor e ceiling: Dado um conjunto de elementos comparáveis e um elemento x, o ceiling de x é o menor
+valor desse conjunto que é maior ou igual a x, e o floor é o maior elemento do conjunto que é menor ou
+igual a x. Suponha que tem um vetor de N elementos ordenado ascendentemente. Escreva um algoritmo
+O(log N) que determine o floor e o ceiling de x.
+9. Considere o seguinte exercício de implementação em java de tabelas de símbolos:
+9.1. Implemente uma solução de tabela de símbolos básica, não ordenada, baseada numa estrutura de
+dados do tipo array estático, ArrayST. Implemente a API básica de ST.
+9.2. Um algoritmo de pesquisa e auto-organização vai rearranjando os itens de modo a que, aqueles que
+são pesquisados com mais frequência, possam ser encontrados logo no início da pesquisa.
+Implemente ArrayST2 uma versão com auto-organização de ArrayST para executar as seguintes
+ações em cada hit da operação de pesquisa: mover o par chave-valor encontrado para o início do
+array, movendo-se todos os pares entre o início da lista e a posição desocupada no array uma
+posição para a frente. Este procedimento é chamado de heurística movimento para frente.1. Considere a seguinte tabela que mapeia notas qualitativas em quantitativas: Excelente-20; Muito Bom-
+18; Bom-16; Suficiente-12; Insuficiente-7; Fraco-3. Escreva um cliente para uma tabela de símbolos
+(Symbol Table - ST) que lê uma série de notas qualitativas e que calcula a média quantitativa, 0-20,
+correspondente a essa série.
+2. Considere a API básica de tabelas de símbolos. Sugira implementações das primitivas: void delete(key);
+boolean contains(key); boolean isEmpty(), com base nas primitivas put(), get() e size().
+3. Faça o rastreio do processo de inserção da sequência de chaves: E A S Y Q U E S T I O N, na tabela de
+símbolos não ordenada, usando a classe SequentialSearchST. Faça uma análise do número de
+comparações envolvidas.
+4. Qual é o número médio de chaves distintas que o cliente FrequencyCounter irá encontrar para N
+números inteiros não negativos, gerados aleatoriamente, menores ou iguais a 1000, para N=10, 102
+5. Faça o rastreio do processo de inserção da sequência de chaves: E A S Y Q U E S T I O N, na tabela de
+símbolos ordenada, usando a classe BinarySearchST. Faça uma análise do número de comparações
+envolvidas.
+6. Justifique, apropriadamente, qual das implementações de ST pensa que será mais adequada para uma
+aplicação que, de um modo aleatório e intervalado, efetua:
+6.1. Operações put() de inserção: 103
+; operações get() de pesquisa: 106
+6.2. Operações put() de inserção: 106
+; operações get() de pesquisa: 103
+7. Seja f() uma função monotonamente crescente com f(0) < 0 e f(N) > 0. Encontre o inteiro mais pequeno i
+tal que f(i) > 0. Escreva um algoritmo que faça O(log N) chamadas a f()1
+.
+8. Floor e ceiling: Dado um conjunto de elementos comparáveis e um elemento x, o ceiling de x é o menor
+valor desse conjunto que é maior ou igual a x, e o floor é o maior elemento do conjunto que é menor ou
+igual a x. Suponha que tem um vetor de N elementos ordenado ascendentemente. Escreva um algoritmo
+O(log N) que determine o floor e o ceiling de x.
+9. Considere o seguinte exercício de implementação em java de tabelas de símbolos:
+9.1. Implemente uma solução de tabela de símbolos básica, não ordenada, baseada numa estrutura de
+dados do tipo array estático, ArrayST. Implemente a API básica de ST.
+9.2. Um algoritmo de pesquisa e auto-organização vai rearranjando os itens de modo a que, aqueles que
+são pesquisados com mais frequência, possam ser encontrados logo no início da pesquisa.
+Implemente ArrayST2 uma versão com auto-organização de ArrayST para executar as seguintes
+ações em cada hit da operação de pesquisa: mover o par chave-valor encontrado para o início do
+array, movendo-se todos os pares entre o início da lista e a posição desocupada no array uma
+posição para a frente. Este procedimento é chamado de heurística movimento para frente.
