@@ -1,0 +1,8 @@
+2020-10-12 20:16:06.560 BST [6080] LOG:  database system was shut down at 2020-10-12 13:10:19 BST
+2020-10-12 20:16:06.750 BST [5304] LOG:  database system is ready to accept connections
+2020-10-12 22:23:22.977 BST [8016] ERROR:  database "universidadebd" does not exist
+2020-10-12 22:23:22.977 BST [8016] STATEMENT:  GRANT ALL PRIVILEGES ON DATABASE UniversidadeBD to myuser;
+2020-10-12 22:25:11.733 BST [8016] ERROR:  syntax error at or near "pg_dump" at character 59
+2020-10-12 22:25:11.733 BST [8016] STATEMENT:  GRANT ALL PRIVILEGES ON DATABASE UniversidadeBD to myuser
+	pg_dump -Ox -Umyuser UniversidadeBD > UniBD.sql
+	create table Disciplina (id serial, numero int, nome text, descricao text, ECTS int, primary key (id));
