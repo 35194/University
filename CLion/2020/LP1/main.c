@@ -1,7 +1,7 @@
-#include "pr/pr02.h"
+#include "tp/tp05.h"
 
 		int main (int argc, const char *argv[])
 		{
-			main_pr02(argc, argv);
+			main_tp05(argc, argv);
 			return 0;
 		}

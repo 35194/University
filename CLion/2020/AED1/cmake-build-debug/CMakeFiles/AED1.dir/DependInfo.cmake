@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/plane/CLionProjects/AED1/main.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/main.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/pr00.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr00.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/pr01.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr01.c.obj"
+  "C:/Users/plane/CLionProjects/AED1/pr/pr02.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr02.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

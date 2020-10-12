@@ -36,7 +36,7 @@ int countWordsStdin(void){
     int wordCount = 0;
     int isInside = 0;
     while ( (c = getchar()) != '\n'){
-        if(isWhite(c) && isInside ==1 ){ //NECESSITA DE IMPLEMENTAR A FUNCAO ISWHITE
+        if(isWhite(c) && isInside ==1 ){
             wordCount++;
             isInside = 0;
         }
@@ -45,4 +45,17 @@ int countWordsStdin(void){
         }
     }
     printf("Foram inseridas %d palavras",wordCount);
+}
+int isWhite(char c) {
+    switch (c) {
+        case ' ':
+        case '\t':
+        case '\n':
+        case '\r':
+        case '\0':
+            return 1;
+            break;
+        default:
+            return 0;
+    }
 }

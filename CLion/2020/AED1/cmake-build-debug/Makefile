@@ -277,6 +277,33 @@ pr/pr01.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr01.c.s
 .PHONY : pr/pr01.c.s
 
+pr/pr02.obj: pr/pr02.c.obj
+
+.PHONY : pr/pr02.obj
+
+# target to build an object file
+pr/pr02.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr02.c.obj
+.PHONY : pr/pr02.c.obj
+
+pr/pr02.i: pr/pr02.c.i
+
+.PHONY : pr/pr02.i
+
+# target to preprocess a source file
+pr/pr02.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr02.c.i
+.PHONY : pr/pr02.c.i
+
+pr/pr02.s: pr/pr02.c.s
+
+.PHONY : pr/pr02.s
+
+# target to generate assembly for a file
+pr/pr02.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr02.c.s
+.PHONY : pr/pr02.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -301,6 +328,9 @@ help:
 	@echo ... pr/pr01.obj
 	@echo ... pr/pr01.i
 	@echo ... pr/pr01.s
+	@echo ... pr/pr02.obj
+	@echo ... pr/pr02.i
+	@echo ... pr/pr02.s
 .PHONY : help
 
 

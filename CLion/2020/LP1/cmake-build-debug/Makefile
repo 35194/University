@@ -223,6 +223,33 @@ pr/pr02.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr02.c.s
 .PHONY : pr/pr02.c.s
 
+pr/pr03.obj: pr/pr03.c.obj
+
+.PHONY : pr/pr03.obj
+
+# target to build an object file
+pr/pr03.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr03.c.obj
+.PHONY : pr/pr03.c.obj
+
+pr/pr03.i: pr/pr03.c.i
+
+.PHONY : pr/pr03.i
+
+# target to preprocess a source file
+pr/pr03.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr03.c.i
+.PHONY : pr/pr03.c.i
+
+pr/pr03.s: pr/pr03.c.s
+
+.PHONY : pr/pr03.s
+
+# target to generate assembly for a file
+pr/pr03.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr03.c.s
+.PHONY : pr/pr03.c.s
+
 tp/tp02.obj: tp/tp02.c.obj
 
 .PHONY : tp/tp02.obj
@@ -277,6 +304,60 @@ tp/tp03.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp03.c.s
 .PHONY : tp/tp03.c.s
 
+tp/tp04.obj: tp/tp04.c.obj
+
+.PHONY : tp/tp04.obj
+
+# target to build an object file
+tp/tp04.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp04.c.obj
+.PHONY : tp/tp04.c.obj
+
+tp/tp04.i: tp/tp04.c.i
+
+.PHONY : tp/tp04.i
+
+# target to preprocess a source file
+tp/tp04.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp04.c.i
+.PHONY : tp/tp04.c.i
+
+tp/tp04.s: tp/tp04.c.s
+
+.PHONY : tp/tp04.s
+
+# target to generate assembly for a file
+tp/tp04.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp04.c.s
+.PHONY : tp/tp04.c.s
+
+tp/tp05.obj: tp/tp05.c.obj
+
+.PHONY : tp/tp05.obj
+
+# target to build an object file
+tp/tp05.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp05.c.obj
+.PHONY : tp/tp05.c.obj
+
+tp/tp05.i: tp/tp05.c.i
+
+.PHONY : tp/tp05.i
+
+# target to preprocess a source file
+tp/tp05.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp05.c.i
+.PHONY : tp/tp05.c.i
+
+tp/tp05.s: tp/tp05.c.s
+
+.PHONY : tp/tp05.s
+
+# target to generate assembly for a file
+tp/tp05.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp05.c.s
+.PHONY : tp/tp05.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -295,12 +376,21 @@ help:
 	@echo ... pr/pr02.obj
 	@echo ... pr/pr02.i
 	@echo ... pr/pr02.s
+	@echo ... pr/pr03.obj
+	@echo ... pr/pr03.i
+	@echo ... pr/pr03.s
 	@echo ... tp/tp02.obj
 	@echo ... tp/tp02.i
 	@echo ... tp/tp02.s
 	@echo ... tp/tp03.obj
 	@echo ... tp/tp03.i
 	@echo ... tp/tp03.s
+	@echo ... tp/tp04.obj
+	@echo ... tp/tp04.i
+	@echo ... tp/tp04.s
+	@echo ... tp/tp05.obj
+	@echo ... tp/tp05.i
+	@echo ... tp/tp05.s
 .PHONY : help
 
 

@@ -7,6 +7,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/AED1.dir/main.c.obj"
   "CMakeFiles/AED1.dir/pr/pr00.c.obj"
   "CMakeFiles/AED1.dir/pr/pr01.c.obj"
+  "CMakeFiles/AED1.dir/pr/pr02.c.obj"
   "libAED1.dll.a"
 )
 

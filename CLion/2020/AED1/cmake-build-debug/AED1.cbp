@@ -101,6 +101,12 @@
 		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr01.h">
 			<Option target="AED1"/>
 		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr02.c">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr02.h">
+			<Option target="AED1"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/AED1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

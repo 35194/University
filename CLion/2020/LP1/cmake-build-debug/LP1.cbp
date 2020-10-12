@@ -89,6 +89,12 @@
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/pr/pr02.h">
 			<Option target="LP1"/>
 		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/pr/pr03.c">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/pr/pr03.h">
+			<Option target="LP1"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp02.c">
 			<Option target="LP1"/>
 		</Unit>
@@ -99,6 +105,18 @@
 			<Option target="LP1"/>
 		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp03.h">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp04.c">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp04.h">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp05.c">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp05.h">
 			<Option target="LP1"/>
 		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/CMakeLists.txt">

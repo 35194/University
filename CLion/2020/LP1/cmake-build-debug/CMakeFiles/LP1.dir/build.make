@@ -115,9 +115,22 @@ CMakeFiles/LP1.dir/pr/pr02.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LP1.dir/pr/pr02.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\LP1\pr\pr02.c -o CMakeFiles\LP1.dir\pr\pr02.c.s
 
+CMakeFiles/LP1.dir/pr/pr03.c.obj: CMakeFiles/LP1.dir/flags.make
+CMakeFiles/LP1.dir/pr/pr03.c.obj: ../pr/pr03.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LP1.dir/pr/pr03.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LP1.dir\pr\pr03.c.obj   -c C:\Users\plane\CLionProjects\LP1\pr\pr03.c
+
+CMakeFiles/LP1.dir/pr/pr03.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LP1.dir/pr/pr03.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\plane\CLionProjects\LP1\pr\pr03.c > CMakeFiles\LP1.dir\pr\pr03.c.i
+
+CMakeFiles/LP1.dir/pr/pr03.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LP1.dir/pr/pr03.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\LP1\pr\pr03.c -o CMakeFiles\LP1.dir\pr\pr03.c.s
+
 CMakeFiles/LP1.dir/tp/tp02.c.obj: CMakeFiles/LP1.dir/flags.make
 CMakeFiles/LP1.dir/tp/tp02.c.obj: ../tp/tp02.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building C object CMakeFiles/LP1.dir/tp/tp02.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LP1.dir/tp/tp02.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LP1.dir\tp\tp02.c.obj   -c C:\Users\plane\CLionProjects\LP1\tp\tp02.c
 
 CMakeFiles/LP1.dir/tp/tp02.c.i: cmake_force
@@ -130,7 +143,7 @@ CMakeFiles/LP1.dir/tp/tp02.c.s: cmake_force
 
 CMakeFiles/LP1.dir/tp/tp03.c.obj: CMakeFiles/LP1.dir/flags.make
 CMakeFiles/LP1.dir/tp/tp03.c.obj: ../tp/tp03.c
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building C object CMakeFiles/LP1.dir/tp/tp03.c.obj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Building C object CMakeFiles/LP1.dir/tp/tp03.c.obj"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LP1.dir\tp\tp03.c.obj   -c C:\Users\plane\CLionProjects\LP1\tp\tp03.c
 
 CMakeFiles/LP1.dir/tp/tp03.c.i: cmake_force
@@ -141,13 +154,42 @@ CMakeFiles/LP1.dir/tp/tp03.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LP1.dir/tp/tp03.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\LP1\tp\tp03.c -o CMakeFiles\LP1.dir\tp\tp03.c.s
 
+CMakeFiles/LP1.dir/tp/tp04.c.obj: CMakeFiles/LP1.dir/flags.make
+CMakeFiles/LP1.dir/tp/tp04.c.obj: ../tp/tp04.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/LP1.dir/tp/tp04.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LP1.dir\tp\tp04.c.obj   -c C:\Users\plane\CLionProjects\LP1\tp\tp04.c
+
+CMakeFiles/LP1.dir/tp/tp04.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LP1.dir/tp/tp04.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\plane\CLionProjects\LP1\tp\tp04.c > CMakeFiles\LP1.dir\tp\tp04.c.i
+
+CMakeFiles/LP1.dir/tp/tp04.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LP1.dir/tp/tp04.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\LP1\tp\tp04.c -o CMakeFiles\LP1.dir\tp\tp04.c.s
+
+CMakeFiles/LP1.dir/tp/tp05.c.obj: CMakeFiles/LP1.dir/flags.make
+CMakeFiles/LP1.dir/tp/tp05.c.obj: ../tp/tp05.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/LP1.dir/tp/tp05.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\LP1.dir\tp\tp05.c.obj   -c C:\Users\plane\CLionProjects\LP1\tp\tp05.c
+
+CMakeFiles/LP1.dir/tp/tp05.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/LP1.dir/tp/tp05.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\plane\CLionProjects\LP1\tp\tp05.c > CMakeFiles\LP1.dir\tp\tp05.c.i
+
+CMakeFiles/LP1.dir/tp/tp05.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/LP1.dir/tp/tp05.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\LP1\tp\tp05.c -o CMakeFiles\LP1.dir\tp\tp05.c.s
+
 # Object files for target LP1
 LP1_OBJECTS = \
 "CMakeFiles/LP1.dir/main.c.obj" \
 "CMakeFiles/LP1.dir/pr/pr01.c.obj" \
 "CMakeFiles/LP1.dir/pr/pr02.c.obj" \
+"CMakeFiles/LP1.dir/pr/pr03.c.obj" \
 "CMakeFiles/LP1.dir/tp/tp02.c.obj" \
-"CMakeFiles/LP1.dir/tp/tp03.c.obj"
+"CMakeFiles/LP1.dir/tp/tp03.c.obj" \
+"CMakeFiles/LP1.dir/tp/tp04.c.obj" \
+"CMakeFiles/LP1.dir/tp/tp05.c.obj"
 
 # External object files for target LP1
 LP1_EXTERNAL_OBJECTS =
@@ -155,13 +197,16 @@ LP1_EXTERNAL_OBJECTS =
 LP1.exe: CMakeFiles/LP1.dir/main.c.obj
 LP1.exe: CMakeFiles/LP1.dir/pr/pr01.c.obj
 LP1.exe: CMakeFiles/LP1.dir/pr/pr02.c.obj
+LP1.exe: CMakeFiles/LP1.dir/pr/pr03.c.obj
 LP1.exe: CMakeFiles/LP1.dir/tp/tp02.c.obj
 LP1.exe: CMakeFiles/LP1.dir/tp/tp03.c.obj
+LP1.exe: CMakeFiles/LP1.dir/tp/tp04.c.obj
+LP1.exe: CMakeFiles/LP1.dir/tp/tp05.c.obj
 LP1.exe: CMakeFiles/LP1.dir/build.make
 LP1.exe: CMakeFiles/LP1.dir/linklibs.rsp
 LP1.exe: CMakeFiles/LP1.dir/objects1.rsp
 LP1.exe: CMakeFiles/LP1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking C executable LP1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Linking C executable LP1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\LP1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
