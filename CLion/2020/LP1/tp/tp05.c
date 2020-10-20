@@ -57,7 +57,7 @@ void print_matrixNx100(int mNx100[][MAXCOLS100], int lin, int col){
     for ( int line = 0; line < lin; line++)
     {
         for (int columns = 0; columns < col; columns++){
-            printf("%d\t", mNx100[line][columns])
+            printf("%d\t", mNx100[line][columns]);
         }
     }
 }

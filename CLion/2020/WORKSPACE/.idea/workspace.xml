@@ -24,34 +24,33 @@
   <component name="ProjectId" id="1UTGrMOAoCDnvKbPv8Y9DneeAxd" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
-    <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="cf.first.check.clang-format" value="false" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
   <component name="RunManager">
-    <configuration name="WORKSPACE" type="CMakeRunConfiguration" factoryName="Application" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WORKSPACE" TARGET_NAME="WORKSPACE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="WORKSPACE" RUN_TARGET_NAME="WORKSPACE">
+    <configuration name="WORKSPACE" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="WORKSPACE" TARGET_NAME="WORKSPACE" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="WORKSPACE" RUN_TARGET_NAME="WORKSPACE">
       <method v="2">
         <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
       </method>
     </configuration>
+    <configuration default="true" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="GradleAppRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" PASS_PARENT_ENVS_2="true">
+      <method v="2">
+        <option name="com.jetbrains.cidr.cpp.gradle.execution.GradleNativeBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
   </component>
-  <component name="ServiceViewManager">
-    <option name="viewStates">
-      <list>
-        <serviceView>
-          <treeState>
-            <expand />
-            <select />
-          </treeState>
-        </serviceView>
-      </list>
-    </option>
-  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -72,32 +71,29 @@
       <workItem from="1578674063177" duration="509000" />
       <workItem from="1578684277271" duration="172000" />
       <workItem from="1578853000148" duration="57000" />
+      <workItem from="1602858811476" duration="1034000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
+    <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="308" key="GridCell.Tab.0.bottom" timestamp="1578673977011">
+    <state width="1323" height="322" key="GridCell.Tab.0.bottom" timestamp="1602859865186">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1578673977011" />
-    <state width="1323" height="308" key="GridCell.Tab.0.center" timestamp="1578673977011">
+    <state width="1323" height="322" key="GridCell.Tab.0.bottom/0.0.1366.738@0.0.1366.738" timestamp="1602859865186" />
+    <state width="1323" height="322" key="GridCell.Tab.0.center" timestamp="1602859865186">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1578673977011" />
-    <state width="1323" height="308" key="GridCell.Tab.0.left" timestamp="1578673977011">
+    <state width="1323" height="322" key="GridCell.Tab.0.center/0.0.1366.738@0.0.1366.738" timestamp="1602859865186" />
+    <state width="1323" height="322" key="GridCell.Tab.0.left" timestamp="1602859865186">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1578673977011" />
-    <state width="1323" height="308" key="GridCell.Tab.0.right" timestamp="1578673977011">
+    <state width="1323" height="322" key="GridCell.Tab.0.left/0.0.1366.738@0.0.1366.738" timestamp="1602859865186" />
+    <state width="1323" height="322" key="GridCell.Tab.0.right" timestamp="1602859865186">
       <screen x="0" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="308" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1578673977011" />
-    <state x="359" y="191" key="com.intellij.ide.util.TipDialog" timestamp="1578853018692">
-      <screen x="0" y="0" width="1366" height="738" />
-    </state>
-    <state x="359" y="191" key="com.intellij.ide.util.TipDialog/0.0.1366.738@0.0.1366.738" timestamp="1578853018692" />
+    <state width="1323" height="322" key="GridCell.Tab.0.right/0.0.1366.738@0.0.1366.738" timestamp="1602859865186" />
   </component>
 </project>

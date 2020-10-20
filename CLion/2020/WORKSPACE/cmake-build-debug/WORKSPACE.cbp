@@ -74,6 +74,9 @@
 				</MakeCommands>
 			</Target>
 		</Build>
+		<Unit filename="C:/Users/plane/CLionProjects/WORKSPACE/CallFunctions.h">
+			<Option target="WORKSPACE"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/WORKSPACE/main.c">
 			<Option target="WORKSPACE"/>
 		</Unit>

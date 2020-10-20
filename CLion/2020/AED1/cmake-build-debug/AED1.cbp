@@ -107,6 +107,24 @@
 		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr02.h">
 			<Option target="AED1"/>
 		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr03.c">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr03.h">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/quickFind.c">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/quickFind.h">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/quickUnion.c">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/quickUnion.h">
+			<Option target="AED1"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/AED1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

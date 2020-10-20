@@ -3,4 +3,4 @@ project(WORKSPACE C)
 
 set(CMAKE_C_STANDARD 99)
 
-add_executable(WORKSPACE main.c)
+add_executable(WORKSPACE main.c CallFunctions.h)

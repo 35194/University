@@ -154,6 +154,45 @@ CMakeFiles/AED1.dir/pr/pr02.c.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AED1.dir/pr/pr02.c.s"
 	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\AED1\pr\pr02.c -o CMakeFiles\AED1.dir\pr\pr02.c.s
 
+CMakeFiles/AED1.dir/pr/pr03.c.obj: CMakeFiles/AED1.dir/flags.make
+CMakeFiles/AED1.dir/pr/pr03.c.obj: ../pr/pr03.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\AED1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Building C object CMakeFiles/AED1.dir/pr/pr03.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AED1.dir\pr\pr03.c.obj   -c C:\Users\plane\CLionProjects\AED1\pr\pr03.c
+
+CMakeFiles/AED1.dir/pr/pr03.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AED1.dir/pr/pr03.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\plane\CLionProjects\AED1\pr\pr03.c > CMakeFiles\AED1.dir\pr\pr03.c.i
+
+CMakeFiles/AED1.dir/pr/pr03.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AED1.dir/pr/pr03.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\AED1\pr\pr03.c -o CMakeFiles\AED1.dir\pr\pr03.c.s
+
+CMakeFiles/AED1.dir/pr/quickFind.c.obj: CMakeFiles/AED1.dir/flags.make
+CMakeFiles/AED1.dir/pr/quickFind.c.obj: ../pr/quickFind.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\AED1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_8) "Building C object CMakeFiles/AED1.dir/pr/quickFind.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AED1.dir\pr\quickFind.c.obj   -c C:\Users\plane\CLionProjects\AED1\pr\quickFind.c
+
+CMakeFiles/AED1.dir/pr/quickFind.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AED1.dir/pr/quickFind.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\plane\CLionProjects\AED1\pr\quickFind.c > CMakeFiles\AED1.dir\pr\quickFind.c.i
+
+CMakeFiles/AED1.dir/pr/quickFind.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AED1.dir/pr/quickFind.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\AED1\pr\quickFind.c -o CMakeFiles\AED1.dir\pr\quickFind.c.s
+
+CMakeFiles/AED1.dir/pr/quickUnion.c.obj: CMakeFiles/AED1.dir/flags.make
+CMakeFiles/AED1.dir/pr/quickUnion.c.obj: ../pr/quickUnion.c
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=C:\Users\plane\CLionProjects\AED1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_9) "Building C object CMakeFiles/AED1.dir/pr/quickUnion.c.obj"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -o CMakeFiles\AED1.dir\pr\quickUnion.c.obj   -c C:\Users\plane\CLionProjects\AED1\pr\quickUnion.c
+
+CMakeFiles/AED1.dir/pr/quickUnion.c.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing C source to CMakeFiles/AED1.dir/pr/quickUnion.c.i"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -E C:\Users\plane\CLionProjects\AED1\pr\quickUnion.c > CMakeFiles\AED1.dir\pr\quickUnion.c.i
+
+CMakeFiles/AED1.dir/pr/quickUnion.c.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling C source to assembly CMakeFiles/AED1.dir/pr/quickUnion.c.s"
+	C:\MinGW\bin\gcc.exe $(C_DEFINES) $(C_INCLUDES) $(C_FLAGS) -S C:\Users\plane\CLionProjects\AED1\pr\quickUnion.c -o CMakeFiles\AED1.dir\pr\quickUnion.c.s
+
 # Object files for target AED1
 AED1_OBJECTS = \
 "CMakeFiles/AED1.dir/main.c.obj" \
@@ -161,7 +200,10 @@ AED1_OBJECTS = \
 "CMakeFiles/AED1.dir/libs_src/lib_util.c.obj" \
 "CMakeFiles/AED1.dir/pr/pr00.c.obj" \
 "CMakeFiles/AED1.dir/pr/pr01.c.obj" \
-"CMakeFiles/AED1.dir/pr/pr02.c.obj"
+"CMakeFiles/AED1.dir/pr/pr02.c.obj" \
+"CMakeFiles/AED1.dir/pr/pr03.c.obj" \
+"CMakeFiles/AED1.dir/pr/quickFind.c.obj" \
+"CMakeFiles/AED1.dir/pr/quickUnion.c.obj"
 
 # External object files for target AED1
 AED1_EXTERNAL_OBJECTS =
@@ -172,11 +214,14 @@ AED1.exe: CMakeFiles/AED1.dir/libs_src/lib_util.c.obj
 AED1.exe: CMakeFiles/AED1.dir/pr/pr00.c.obj
 AED1.exe: CMakeFiles/AED1.dir/pr/pr01.c.obj
 AED1.exe: CMakeFiles/AED1.dir/pr/pr02.c.obj
+AED1.exe: CMakeFiles/AED1.dir/pr/pr03.c.obj
+AED1.exe: CMakeFiles/AED1.dir/pr/quickFind.c.obj
+AED1.exe: CMakeFiles/AED1.dir/pr/quickUnion.c.obj
 AED1.exe: CMakeFiles/AED1.dir/build.make
 AED1.exe: CMakeFiles/AED1.dir/linklibs.rsp
 AED1.exe: CMakeFiles/AED1.dir/objects1.rsp
 AED1.exe: CMakeFiles/AED1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\plane\CLionProjects\AED1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Linking C executable AED1.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=C:\Users\plane\CLionProjects\AED1\cmake-build-debug\CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Linking C executable AED1.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\AED1.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

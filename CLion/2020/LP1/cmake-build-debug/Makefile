@@ -250,6 +250,33 @@ pr/pr03.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr03.c.s
 .PHONY : pr/pr03.c.s
 
+pr/pr04.obj: pr/pr04.c.obj
+
+.PHONY : pr/pr04.obj
+
+# target to build an object file
+pr/pr04.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr04.c.obj
+.PHONY : pr/pr04.c.obj
+
+pr/pr04.i: pr/pr04.c.i
+
+.PHONY : pr/pr04.i
+
+# target to preprocess a source file
+pr/pr04.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr04.c.i
+.PHONY : pr/pr04.c.i
+
+pr/pr04.s: pr/pr04.c.s
+
+.PHONY : pr/pr04.s
+
+# target to generate assembly for a file
+pr/pr04.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr04.c.s
+.PHONY : pr/pr04.c.s
+
 tp/tp02.obj: tp/tp02.c.obj
 
 .PHONY : tp/tp02.obj
@@ -358,6 +385,33 @@ tp/tp05.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp05.c.s
 .PHONY : tp/tp05.c.s
 
+tp/tp06.obj: tp/tp06.c.obj
+
+.PHONY : tp/tp06.obj
+
+# target to build an object file
+tp/tp06.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp06.c.obj
+.PHONY : tp/tp06.c.obj
+
+tp/tp06.i: tp/tp06.c.i
+
+.PHONY : tp/tp06.i
+
+# target to preprocess a source file
+tp/tp06.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp06.c.i
+.PHONY : tp/tp06.c.i
+
+tp/tp06.s: tp/tp06.c.s
+
+.PHONY : tp/tp06.s
+
+# target to generate assembly for a file
+tp/tp06.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp06.c.s
+.PHONY : tp/tp06.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -379,6 +433,9 @@ help:
 	@echo ... pr/pr03.obj
 	@echo ... pr/pr03.i
 	@echo ... pr/pr03.s
+	@echo ... pr/pr04.obj
+	@echo ... pr/pr04.i
+	@echo ... pr/pr04.s
 	@echo ... tp/tp02.obj
 	@echo ... tp/tp02.i
 	@echo ... tp/tp02.s
@@ -391,6 +448,9 @@ help:
 	@echo ... tp/tp05.obj
 	@echo ... tp/tp05.i
 	@echo ... tp/tp05.s
+	@echo ... tp/tp06.obj
+	@echo ... tp/tp06.i
+	@echo ... tp/tp06.s
 .PHONY : help
 
 

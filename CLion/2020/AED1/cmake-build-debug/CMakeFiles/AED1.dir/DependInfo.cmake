@@ -10,6 +10,9 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/plane/CLionProjects/AED1/pr/pr00.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr00.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/pr01.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr01.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/pr02.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr02.c.obj"
+  "C:/Users/plane/CLionProjects/AED1/pr/pr03.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr03.c.obj"
+  "C:/Users/plane/CLionProjects/AED1/pr/quickFind.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/quickFind.c.obj"
+  "C:/Users/plane/CLionProjects/AED1/pr/quickUnion.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/quickUnion.c.obj"
   )
 set(CMAKE_C_COMPILER_ID "GNU")
 

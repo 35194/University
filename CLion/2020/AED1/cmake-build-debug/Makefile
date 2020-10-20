@@ -304,6 +304,87 @@ pr/pr02.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr02.c.s
 .PHONY : pr/pr02.c.s
 
+pr/pr03.obj: pr/pr03.c.obj
+
+.PHONY : pr/pr03.obj
+
+# target to build an object file
+pr/pr03.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr03.c.obj
+.PHONY : pr/pr03.c.obj
+
+pr/pr03.i: pr/pr03.c.i
+
+.PHONY : pr/pr03.i
+
+# target to preprocess a source file
+pr/pr03.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr03.c.i
+.PHONY : pr/pr03.c.i
+
+pr/pr03.s: pr/pr03.c.s
+
+.PHONY : pr/pr03.s
+
+# target to generate assembly for a file
+pr/pr03.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr03.c.s
+.PHONY : pr/pr03.c.s
+
+pr/quickFind.obj: pr/quickFind.c.obj
+
+.PHONY : pr/quickFind.obj
+
+# target to build an object file
+pr/quickFind.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/quickFind.c.obj
+.PHONY : pr/quickFind.c.obj
+
+pr/quickFind.i: pr/quickFind.c.i
+
+.PHONY : pr/quickFind.i
+
+# target to preprocess a source file
+pr/quickFind.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/quickFind.c.i
+.PHONY : pr/quickFind.c.i
+
+pr/quickFind.s: pr/quickFind.c.s
+
+.PHONY : pr/quickFind.s
+
+# target to generate assembly for a file
+pr/quickFind.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/quickFind.c.s
+.PHONY : pr/quickFind.c.s
+
+pr/quickUnion.obj: pr/quickUnion.c.obj
+
+.PHONY : pr/quickUnion.obj
+
+# target to build an object file
+pr/quickUnion.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/quickUnion.c.obj
+.PHONY : pr/quickUnion.c.obj
+
+pr/quickUnion.i: pr/quickUnion.c.i
+
+.PHONY : pr/quickUnion.i
+
+# target to preprocess a source file
+pr/quickUnion.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/quickUnion.c.i
+.PHONY : pr/quickUnion.c.i
+
+pr/quickUnion.s: pr/quickUnion.c.s
+
+.PHONY : pr/quickUnion.s
+
+# target to generate assembly for a file
+pr/quickUnion.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/quickUnion.c.s
+.PHONY : pr/quickUnion.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -331,6 +412,15 @@ help:
 	@echo ... pr/pr02.obj
 	@echo ... pr/pr02.i
 	@echo ... pr/pr02.s
+	@echo ... pr/pr03.obj
+	@echo ... pr/pr03.i
+	@echo ... pr/pr03.s
+	@echo ... pr/quickFind.obj
+	@echo ... pr/quickFind.i
+	@echo ... pr/quickFind.s
+	@echo ... pr/quickUnion.obj
+	@echo ... pr/quickUnion.i
+	@echo ... pr/quickUnion.s
 .PHONY : help
 
 
