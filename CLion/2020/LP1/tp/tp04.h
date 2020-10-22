@@ -17,7 +17,7 @@
  * Receives an integer and recursively returns the number of digits,
  * e.g. 218 = 3 digits (2, 1, 8).
  */
-//int numberOfDigitsRecursive(int a);
+int numberOfDigitsRecursive(int a);
 
 /**
  * Multiplies 2 numbers using a recursive algorithm.
@@ -25,7 +25,7 @@
  * @param b - second operand
  * @return the product of a and b
  */
-//double multiply_recursive(int a, int b);
+double multiply_recursive(int a, int b);
 
 /**
  * Uses a recursive algorithm to calculate the factorial of a number.
@@ -38,7 +38,7 @@
  * @param n - number to calculate and print the multiplication table
  * @param level - which level of the multiplcation table to print
  */
-//void print_multable_recursive(int n, int level);
+void print_multable_recursive(int n, int level);
 
 //============= END TODO ON NEXT CLASS =============
 

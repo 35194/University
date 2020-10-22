@@ -21,7 +21,7 @@
  *  @param a - int number to decompose
  *   @return number of digits of a
  */
-int numberOfDigitsRecursive(int a);
+int numberOfDigitsRecursive1(int a);
 
 /**
  * Multiplies 2 numbers using a recursive algorithm.

@@ -1,8 +1,10 @@
-//
-// Created by plane on 19/10/2020.
-//
-
 #include "tp06.h"
+
+
+//ToDo:  char* del_allsubstr(char *pstr, char *psub);
+//ToDo: char* strcat_ptr2(char *pdest, char *porg);
+
+
 
 int main_tp06(int argc, const char * argv[]){
     char str[]="OLA MEU OLA MUNDO, OLA";
@@ -41,4 +43,25 @@ char* del_substr(char *pstr, char *psub){
         }
     }
     return pstr;
+}
+
+//ToDo:-----------------------------------------------------------------------------------------------
+char* strcat_ptr1(char *pdest, char *porg){
+    int size1 = strlen(pdest);
+    int i = 0, j = 0;
+    for ( int i = size1, j = 0; *(porg + j) != '\0'; j++,  i++){
+        *(pdest +i) = *(porg +j);
+        j+ size1;
+    }
+}
+
+
+//char* strcat_ptr2(char *pdest, char *porg){int s1 = strlen(porg);}
+
+void print_array_ints_ptr(int* pi, int size){
+    int * paux = pi;
+    for(int i = 0; paux < (pi + size); i++){
+        printf("a[%i] = %d\n", i, *paux);
+        paux++;
+    }
 }

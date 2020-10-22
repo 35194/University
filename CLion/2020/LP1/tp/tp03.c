@@ -1,9 +1,12 @@
 #include "tp03.h"
 #include <stdio.h>
 
+//ToDo: void printKeyType(char c); int numberOfDigitsIterative(int a); void readKeysPressedPrintKeyType(void);
+//ToDo: void readKeysPressedPrintDigits(void);
+
 int main_tp03(int argc, const char *argv[]) {
     char c = 'B';
-    printf("O Char %c e uma consoante %d\n", c, (isConsonant(c)? "sim" : "NAO"));
+    printf("O Char %c e uma consoante %d\n", c, (isConsonant(c)? "SIM" : "NAO"));
 }
 
 int isDigit(char c) {
@@ -31,21 +34,6 @@ int isConsonant(char c){
     return 0;
 }
 
-int countWordsStdin(void){
-    char c = '\0';
-    int wordCount = 0;
-    int isInside = 0;
-    while ( (c = getchar()) != '\n'){
-        if(isWhite(c) && isInside ==1 ){
-            wordCount++;
-            isInside = 0;
-        }
-        else if(!isWhite(c) && isInside==0){
-            isInside = 1;
-        }
-    }
-    printf("Foram inseridas %d palavras",wordCount);
-}
 int isWhite(char c) {
     switch (c) {
         case ' ':
@@ -59,3 +47,23 @@ int isWhite(char c) {
             return 0;
     }
 }
+
+int countWordsStdin() {
+    char c = '\0';
+    int wordCount = 0;
+    int isInside = 0;
+    while ((c = getchar()) != '\n') {
+        if (isWhite(c) && isInside) {
+            wordCount++;
+            isInside = 0;
+        } else if (!isWhite(c) && !isInside) {
+            isInside = 1;
+        }
+    }
+    if (isInside)
+        wordCount++;
+    printf("Words:%d\n", wordCount);
+    return wordCount;
+}
+
+
