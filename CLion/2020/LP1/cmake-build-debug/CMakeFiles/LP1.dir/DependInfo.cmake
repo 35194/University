@@ -9,6 +9,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/plane/CLionProjects/LP1/pr/pr02.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/pr/pr02.c.obj"
   "C:/Users/plane/CLionProjects/LP1/pr/pr03.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/pr/pr03.c.obj"
   "C:/Users/plane/CLionProjects/LP1/pr/pr04.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/pr/pr04.c.obj"
+  "C:/Users/plane/CLionProjects/LP1/pr/pr05.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/pr/pr05.c.obj"
   "C:/Users/plane/CLionProjects/LP1/tp/tp02.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/tp/tp02.c.obj"
   "C:/Users/plane/CLionProjects/LP1/tp/tp03.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/tp/tp03.c.obj"
   "C:/Users/plane/CLionProjects/LP1/tp/tp04.c" "C:/Users/plane/CLionProjects/LP1/cmake-build-debug/CMakeFiles/LP1.dir/tp/tp04.c.obj"
