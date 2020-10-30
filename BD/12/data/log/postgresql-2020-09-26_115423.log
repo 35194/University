@@ -1,8 +1,0 @@
-2020-09-26 11:54:23.143 BST [6184] LOG:  database system was shut down at 2020-09-26 09:01:38 BST
-2020-09-26 11:54:23.173 BST [5484] LOG:  database system is ready to accept connections
-2020-09-26 22:51:55.159 BST [5484] LOG:  received fast shutdown request
-2020-09-26 22:51:55.164 BST [5484] LOG:  aborting any active transactions
-2020-09-26 22:51:55.164 BST [6476] ERROR:  canceling statement due to user request
-2020-09-26 22:51:55.167 BST [5484] LOG:  background worker "logical replication launcher" (PID 6476) exited with exit code 1
-2020-09-26 22:51:55.170 BST [6432] LOG:  shutting down
-2020-09-26 22:51:55.229 BST [5484] LOG:  database system is shut down
