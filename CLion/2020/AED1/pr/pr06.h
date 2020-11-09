@@ -6,6 +6,8 @@
 #include <stdlib.h>
 #include <string.h>
 #include <stdio.h>
+#include "../libs_src/lib_util.h"
+
 
 typedef struct {
     StringElementsArray s;
