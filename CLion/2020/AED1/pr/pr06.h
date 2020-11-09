@@ -12,6 +12,7 @@
 typedef struct {
     StringElementsArray s;
     int *index;
+
 }StringElementsArrayIdx;
 
 void createStringElementsArrayIdx(StringElementsArrayIdx * a, int N);

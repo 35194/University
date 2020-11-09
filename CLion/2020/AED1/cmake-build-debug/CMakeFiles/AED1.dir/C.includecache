@@ -6,6 +6,18 @@
 
 #IncludeRegexTransform: 
 
+C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
+stdio.h
+-
+math.h
+-
+stdlib.h
+-
+windows.h
+-
+sys/time.h
+-
+
 C:/Users/plane/CLionProjects/AED1/pr/pr04.h
 
 C:/Users/plane/CLionProjects/AED1/pr/pr06.c
@@ -17,4 +29,10 @@ pr04.h
 C:/Users/plane/CLionProjects/AED1/pr/pr04.h
 stdlib.h
 -
+string.h
+-
+stdio.h
+-
+../libs_src/lib_util.h
+C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
 

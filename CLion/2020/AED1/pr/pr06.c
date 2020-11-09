@@ -1,14 +1,16 @@
 #include "pr06.h"
 
 int main_pr06(int argc, char * argv[]){
-
+    suffixArrayClient();
 }
 
 
 
 void createStringElementsArrayIdx(StringElementsArrayIdx * a, int N){
-    //Igual a createStringElementsArray....
-    a -> index = (int*) malloc (sizeof(int) * N);
+    a->s.N = N;
+    a->s.str = (char **) malloc(sizeof(char *)*N);
+    a->s.len = (int *) malloc(sizeof(int)*N);
+    a ->index = (int*) malloc (sizeof(int) * N);
 }
 
 int msd_sort_whithout_cutoff(StringElementsArrayIdx *a, StringElementsArrayIdx *aux, int lo, int hi, int d, int R) {
@@ -75,11 +77,16 @@ int charAt(StringElementsArrayIdx * a, int i, int d) {
 void sa_createSufixArray(char * text, StringElementsArrayIdx * sa, int R){
     int N = strlen(text);
     createStringElementsArrayIdx(sa, N);
+    //Parte 1)
     for(int i = 0; i < N; i++){
         sa-> s.str[i] = text + i;
         sa -> s.len[i] = N - i;
         sa -> index[i] = i;
     }
+    //Parte 2)
+    StringElementsArrayIdx aux;
+    createStringElementsArrayIdx(&aux, N);
+    msd_sort_whithout_cutoff(sa,&aux, 0, N-1, 0, R);
 }
 
 
@@ -87,7 +94,7 @@ void suffixArrayClient(){
     char text[]="aacaagtttacaagc";
     StringElementsArrayIdx  sa;
     sa_createSufixArray(text, &sa,CHAR_8BIT_RADIX);
-    for (int i = 0; i < sa.s.N; sa.index[i]){
+    for (int i = 0; i < sa.s.N;i++){
         printf("%d\t%s\n", sa.index[i], sa.s.str[i]);
     }
 }
