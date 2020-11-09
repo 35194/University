@@ -113,6 +113,18 @@
 		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr03.h">
 			<Option target="AED1"/>
 		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr04.c">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr04.h">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr06.c">
+			<Option target="AED1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/pr06.h">
+			<Option target="AED1"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/AED1/pr/quickFind.c">
 			<Option target="AED1"/>
 		</Unit>

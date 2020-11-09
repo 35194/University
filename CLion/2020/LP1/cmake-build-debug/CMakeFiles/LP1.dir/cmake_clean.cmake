@@ -11,6 +11,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LP1.dir/tp/tp04.c.obj"
   "CMakeFiles/LP1.dir/tp/tp05.c.obj"
   "CMakeFiles/LP1.dir/tp/tp06.c.obj"
+  "CMakeFiles/LP1.dir/tp/tp07e08.c.obj"
   "LP1.exe"
   "LP1.exe.manifest"
   "LP1.pdb"

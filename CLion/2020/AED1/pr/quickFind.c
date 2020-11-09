@@ -23,7 +23,7 @@ int initQF(int * id, int n){
 
 }
 int findQF(int *id, int p){
-    return id(p);
+   // return id(p);
 }
 void unionQF(int *id, int n, int p, int q){
 

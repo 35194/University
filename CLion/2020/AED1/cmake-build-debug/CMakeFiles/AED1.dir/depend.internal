@@ -8,9 +8,8 @@ CMakeFiles/AED1.dir/libs_src/lib_util.c.obj
  C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.c
  C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
 CMakeFiles/AED1.dir/main.c.obj
- C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
  C:/Users/plane/CLionProjects/AED1/main.c
- C:/Users/plane/CLionProjects/AED1/pr/pr02.h
+ C:/Users/plane/CLionProjects/AED1/pr/pr03.h
 CMakeFiles/AED1.dir/pr/pr00.c.obj
  C:/Users/plane/CLionProjects/AED1/libs_src/lib_stats.h
  C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
@@ -24,3 +23,22 @@ CMakeFiles/AED1.dir/pr/pr02.c.obj
  C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
  C:/Users/plane/CLionProjects/AED1/pr/pr02.c
  C:/Users/plane/CLionProjects/AED1/pr/pr02.h
+CMakeFiles/AED1.dir/pr/pr03.c.obj
+ C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
+ C:/Users/plane/CLionProjects/AED1/pr/pr03.c
+ C:/Users/plane/CLionProjects/AED1/pr/pr03.h
+ C:/Users/plane/CLionProjects/AED1/pr/quickFind.h
+CMakeFiles/AED1.dir/pr/pr04.c.obj
+ C:/Users/plane/CLionProjects/AED1/libs_src/lib_util.h
+ C:/Users/plane/CLionProjects/AED1/pr/pr04.c
+ C:/Users/plane/CLionProjects/AED1/pr/pr04.h
+CMakeFiles/AED1.dir/pr/pr06.c.obj
+ C:/Users/plane/CLionProjects/AED1/pr/pr04.h
+ C:/Users/plane/CLionProjects/AED1/pr/pr06.c
+ C:/Users/plane/CLionProjects/AED1/pr/pr06.h
+CMakeFiles/AED1.dir/pr/quickFind.c.obj
+ C:/Users/plane/CLionProjects/AED1/pr/quickFind.c
+ C:/Users/plane/CLionProjects/AED1/pr/quickFind.h
+CMakeFiles/AED1.dir/pr/quickUnion.c.obj
+ C:/Users/plane/CLionProjects/AED1/pr/quickUnion.c
+ C:/Users/plane/CLionProjects/AED1/pr/quickUnion.h

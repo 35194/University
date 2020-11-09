@@ -6,13 +6,23 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/plane/CLionProjects/LP1/pr/pr05.c
-pr05.h
-C:/Users/plane/CLionProjects/LP1/pr/pr05.h
-
-C:/Users/plane/CLionProjects/LP1/pr/pr05.h
+C:/Users/plane/CLionProjects/LP1/tp/tp03.h
 stdio.h
 -
-math.h
+ctype.h
 -
+
+C:/Users/plane/CLionProjects/LP1/tp/tp07e08.c
+tp07e08.h
+C:/Users/plane/CLionProjects/LP1/tp/tp07e08.h
+
+C:/Users/plane/CLionProjects/LP1/tp/tp07e08.h
+stdlib.h
+-
+stdio.h
+-
+string.h
+-
+tp03.h
+C:/Users/plane/CLionProjects/LP1/tp/tp03.h
 

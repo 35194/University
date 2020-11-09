@@ -7,9 +7,8 @@ CMakeFiles/AED1.dir/libs_src/lib_stats.c.obj: ../libs_src/lib_stats.h
 CMakeFiles/AED1.dir/libs_src/lib_util.c.obj: ../libs_src/lib_util.c
 CMakeFiles/AED1.dir/libs_src/lib_util.c.obj: ../libs_src/lib_util.h
 
-CMakeFiles/AED1.dir/main.c.obj: ../libs_src/lib_util.h
 CMakeFiles/AED1.dir/main.c.obj: ../main.c
-CMakeFiles/AED1.dir/main.c.obj: ../pr/pr02.h
+CMakeFiles/AED1.dir/main.c.obj: ../pr/pr03.h
 
 CMakeFiles/AED1.dir/pr/pr00.c.obj: ../libs_src/lib_stats.h
 CMakeFiles/AED1.dir/pr/pr00.c.obj: ../libs_src/lib_util.h
@@ -23,4 +22,23 @@ CMakeFiles/AED1.dir/pr/pr01.c.obj: ../pr/pr01.h
 CMakeFiles/AED1.dir/pr/pr02.c.obj: ../libs_src/lib_util.h
 CMakeFiles/AED1.dir/pr/pr02.c.obj: ../pr/pr02.c
 CMakeFiles/AED1.dir/pr/pr02.c.obj: ../pr/pr02.h
+
+CMakeFiles/AED1.dir/pr/pr03.c.obj: ../libs_src/lib_util.h
+CMakeFiles/AED1.dir/pr/pr03.c.obj: ../pr/pr03.c
+CMakeFiles/AED1.dir/pr/pr03.c.obj: ../pr/pr03.h
+CMakeFiles/AED1.dir/pr/pr03.c.obj: ../pr/quickFind.h
+
+CMakeFiles/AED1.dir/pr/pr04.c.obj: ../libs_src/lib_util.h
+CMakeFiles/AED1.dir/pr/pr04.c.obj: ../pr/pr04.c
+CMakeFiles/AED1.dir/pr/pr04.c.obj: ../pr/pr04.h
+
+CMakeFiles/AED1.dir/pr/pr06.c.obj: ../pr/pr04.h
+CMakeFiles/AED1.dir/pr/pr06.c.obj: ../pr/pr06.c
+CMakeFiles/AED1.dir/pr/pr06.c.obj: ../pr/pr06.h
+
+CMakeFiles/AED1.dir/pr/quickFind.c.obj: ../pr/quickFind.c
+CMakeFiles/AED1.dir/pr/quickFind.c.obj: ../pr/quickFind.h
+
+CMakeFiles/AED1.dir/pr/quickUnion.c.obj: ../pr/quickUnion.c
+CMakeFiles/AED1.dir/pr/quickUnion.c.obj: ../pr/quickUnion.h
 

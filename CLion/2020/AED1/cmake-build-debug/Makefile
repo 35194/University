@@ -331,6 +331,60 @@ pr/pr03.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr03.c.s
 .PHONY : pr/pr03.c.s
 
+pr/pr04.obj: pr/pr04.c.obj
+
+.PHONY : pr/pr04.obj
+
+# target to build an object file
+pr/pr04.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr04.c.obj
+.PHONY : pr/pr04.c.obj
+
+pr/pr04.i: pr/pr04.c.i
+
+.PHONY : pr/pr04.i
+
+# target to preprocess a source file
+pr/pr04.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr04.c.i
+.PHONY : pr/pr04.c.i
+
+pr/pr04.s: pr/pr04.c.s
+
+.PHONY : pr/pr04.s
+
+# target to generate assembly for a file
+pr/pr04.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr04.c.s
+.PHONY : pr/pr04.c.s
+
+pr/pr06.obj: pr/pr06.c.obj
+
+.PHONY : pr/pr06.obj
+
+# target to build an object file
+pr/pr06.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr06.c.obj
+.PHONY : pr/pr06.c.obj
+
+pr/pr06.i: pr/pr06.c.i
+
+.PHONY : pr/pr06.i
+
+# target to preprocess a source file
+pr/pr06.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr06.c.i
+.PHONY : pr/pr06.c.i
+
+pr/pr06.s: pr/pr06.c.s
+
+.PHONY : pr/pr06.s
+
+# target to generate assembly for a file
+pr/pr06.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr06.c.s
+.PHONY : pr/pr06.c.s
+
 pr/quickFind.obj: pr/quickFind.c.obj
 
 .PHONY : pr/quickFind.obj
@@ -415,6 +469,12 @@ help:
 	@echo ... pr/pr03.obj
 	@echo ... pr/pr03.i
 	@echo ... pr/pr03.s
+	@echo ... pr/pr04.obj
+	@echo ... pr/pr04.i
+	@echo ... pr/pr04.s
+	@echo ... pr/pr06.obj
+	@echo ... pr/pr06.i
+	@echo ... pr/pr06.s
 	@echo ... pr/quickFind.obj
 	@echo ... pr/quickFind.i
 	@echo ... pr/quickFind.s

@@ -2,28 +2,27 @@
 #include <stdlib.h>
 #include "CallFunctions.h"
 
-//ARQ Ficha 2- Ex.5
+//ARQ Ficha 2- Ex.6
 int main(int argc, char *argv[])
 {
     function;
 }
 
-int function(){
-    int vetor[20];
-    int n,i, somaPar = 0, somaImpar=0,  temp;
+int function()
+{
+    int i, n = 0, soma = 0, temp = 0;
     scanf("%d", &n);
-    if(n>20)
-        return 1;
-    for (int i = 0; i  != n; i++) {
+    for ( i = n; i  != 0; i--) {
         scanf("%d",&temp);
-        vetor[i] = temp;
+        if(temp > 0) {
+            soma += temp;
         }
-    for (i = 0; i < n; i= i+2){
-        somaPar += vetor[i];
     }
-    for (i = 1; i < n; i = i+2){
-    somaImpar += vetor[i];
-    }
-    printf("A soma e %d", (somaPar - somaImpar));
+    printf("%d", soma);
     return 0;
 }
+
+
+
+
+
