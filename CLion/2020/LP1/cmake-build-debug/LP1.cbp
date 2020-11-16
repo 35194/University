@@ -149,6 +149,12 @@
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp07e08.h">
 			<Option target="LP1"/>
 		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp09.c">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp09.h">
+			<Option target="LP1"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

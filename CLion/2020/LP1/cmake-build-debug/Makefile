@@ -493,6 +493,33 @@ tp/tp07e08.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp07e08.c.s
 .PHONY : tp/tp07e08.c.s
 
+tp/tp09.obj: tp/tp09.c.obj
+
+.PHONY : tp/tp09.obj
+
+# target to build an object file
+tp/tp09.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp09.c.obj
+.PHONY : tp/tp09.c.obj
+
+tp/tp09.i: tp/tp09.c.i
+
+.PHONY : tp/tp09.i
+
+# target to preprocess a source file
+tp/tp09.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp09.c.i
+.PHONY : tp/tp09.c.i
+
+tp/tp09.s: tp/tp09.c.s
+
+.PHONY : tp/tp09.s
+
+# target to generate assembly for a file
+tp/tp09.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp09.c.s
+.PHONY : tp/tp09.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -541,6 +568,9 @@ help:
 	@echo ... tp/tp07e08.obj
 	@echo ... tp/tp07e08.i
 	@echo ... tp/tp07e08.s
+	@echo ... tp/tp09.obj
+	@echo ... tp/tp09.i
+	@echo ... tp/tp09.s
 .PHONY : help
 
 

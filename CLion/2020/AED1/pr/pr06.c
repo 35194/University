@@ -1,7 +1,7 @@
 #include "pr06.h"
 
 int main_pr06(int argc, char * argv[]){
-    suffixArrayClient();
+    KMP();
 }
 
 
@@ -88,7 +88,14 @@ void sa_createSufixArray(char * text, StringElementsArrayIdx * sa, int R){
     createStringElementsArrayIdx(&aux, N);
     msd_sort_whithout_cutoff(sa,&aux, 0, N-1, 0, R);
 }
-
+int* my_str_str(char*txt, char*pat){
+    char* ret; int* v = (int*) malloc(sizeof(int)* strlen(txt));
+    char*p = txt; int i = 0;
+    while ((ret=strstr(p, pat)) !=  NULL){
+        *(v + i++) = (ret-txt);
+        p+= (ret-txt) +1;
+    }
+}
 
 void suffixArrayClient(){
     char text[]="aacaagtttacaagc";
@@ -96,5 +103,26 @@ void suffixArrayClient(){
     sa_createSufixArray(text, &sa,CHAR_8BIT_RADIX);
     for (int i = 0; i < sa.s.N;i++){
         printf("%d\t%s\n", sa.index[i], sa.s.str[i]);
+    }
+}
+
+int KMP(){
+    char pat[] = "ABAAC";
+     int R = 3;
+     int M = strlen(pat);
+     int dfa[3][5] = {0};
+     dfa [pat[0] -'A'][0] = 1;
+    for (int X = 0, j = 1; j < M; j++)
+    {
+        for (int c = 0; c < R; c++) {
+            dfa[c][j] = dfa[c][X];
+        }
+        dfa[pat[j]-'A'][j] = j+1;
+        X = dfa[pat[j]- 'A'][X];
+    }
+    for (int i = 0; i < R; i++){
+        for (int j = 0; j < M; j++){
+            printf("%d ", dfa[i][j]);
+        }printf("\n");
     }
 }

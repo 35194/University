@@ -26,4 +26,6 @@ int charAt(StringElementsArrayIdx * a, int i, int d);
 void sa_createSufixArray(char * text, StringElementsArrayIdx * sa, int R);
 void suffixArrayClient();
 int main_pr06(int argc, char * argv[]);
+int* my_str_str(char*txt, char*pat);
+int KMP();
 #endif //AED1_PR06_H
