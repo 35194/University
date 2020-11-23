@@ -385,6 +385,33 @@ pr/pr06.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr06.c.s
 .PHONY : pr/pr06.c.s
 
+pr/pr07.obj: pr/pr07.c.obj
+
+.PHONY : pr/pr07.obj
+
+# target to build an object file
+pr/pr07.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr07.c.obj
+.PHONY : pr/pr07.c.obj
+
+pr/pr07.i: pr/pr07.c.i
+
+.PHONY : pr/pr07.i
+
+# target to preprocess a source file
+pr/pr07.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr07.c.i
+.PHONY : pr/pr07.c.i
+
+pr/pr07.s: pr/pr07.c.s
+
+.PHONY : pr/pr07.s
+
+# target to generate assembly for a file
+pr/pr07.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\AED1.dir\build.make CMakeFiles/AED1.dir/pr/pr07.c.s
+.PHONY : pr/pr07.c.s
+
 pr/quickFind.obj: pr/quickFind.c.obj
 
 .PHONY : pr/quickFind.obj
@@ -475,6 +502,9 @@ help:
 	@echo ... pr/pr06.obj
 	@echo ... pr/pr06.i
 	@echo ... pr/pr06.s
+	@echo ... pr/pr07.obj
+	@echo ... pr/pr07.i
+	@echo ... pr/pr07.s
 	@echo ... pr/quickFind.obj
 	@echo ... pr/quickFind.i
 	@echo ... pr/quickFind.s

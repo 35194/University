@@ -13,6 +13,7 @@ set(CMAKE_DEPENDS_CHECK_C
   "C:/Users/plane/CLionProjects/AED1/pr/pr03.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr03.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/pr04.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr04.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/pr06.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr06.c.obj"
+  "C:/Users/plane/CLionProjects/AED1/pr/pr07.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/pr07.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/quickFind.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/quickFind.c.obj"
   "C:/Users/plane/CLionProjects/AED1/pr/quickUnion.c" "C:/Users/plane/CLionProjects/AED1/cmake-build-debug/CMakeFiles/AED1.dir/pr/quickUnion.c.obj"
   )

@@ -1,9 +1,18 @@
 #ifndef tp09_h
 #define tp09_h
-
+#define INT_MAX 999999999
 #include <stdio.h>
 #include <stdlib.h>
 
+typedef struct node_point{
+    struct pt info;
+    struct node_point * pdwon;
+}NODE_POINT;
+
+typedef struct stack_node_points{
+    int nnodes;
+    NODE_POINT * ptop;
+}STACK_NODE_POINTS;
 /**
  * Declarar struct para representação de um point
  * NB 1: na aula TP designa-se por struct pt para evitar conflito com pr09.h onde se designa struct point.
@@ -70,6 +79,9 @@ void print_pt2(char label_pt[], struct pt *pp);
 void print_rect(char rect_label[], const struct rect* pr);
 
 int main_tp09(int argc, const char * argv[]);
-
+int is_empty(STACK_NODE_POINTS snp);
+void push_stack_node_points(STACK_NODE_POINTS *psnp, struct pt info);
+struct pt pop_stack_node_points_copynode( STACK_NODE_POINTS * psnp);
+struct pt prep_stack_node_points(const STACK_NODE_POINTS *psnp, int delta);
 
 #endif /* tp09_h */

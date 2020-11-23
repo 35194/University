@@ -331,6 +331,33 @@ pr/pr06.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr06.c.s
 .PHONY : pr/pr06.c.s
 
+pr/pr09.obj: pr/pr09.c.obj
+
+.PHONY : pr/pr09.obj
+
+# target to build an object file
+pr/pr09.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr09.c.obj
+.PHONY : pr/pr09.c.obj
+
+pr/pr09.i: pr/pr09.c.i
+
+.PHONY : pr/pr09.i
+
+# target to preprocess a source file
+pr/pr09.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr09.c.i
+.PHONY : pr/pr09.c.i
+
+pr/pr09.s: pr/pr09.c.s
+
+.PHONY : pr/pr09.s
+
+# target to generate assembly for a file
+pr/pr09.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/pr/pr09.c.s
+.PHONY : pr/pr09.c.s
+
 tp/tp02.obj: tp/tp02.c.obj
 
 .PHONY : tp/tp02.obj
@@ -550,6 +577,9 @@ help:
 	@echo ... pr/pr06.obj
 	@echo ... pr/pr06.i
 	@echo ... pr/pr06.s
+	@echo ... pr/pr09.obj
+	@echo ... pr/pr09.i
+	@echo ... pr/pr09.s
 	@echo ... tp/tp02.obj
 	@echo ... tp/tp02.i
 	@echo ... tp/tp02.s
