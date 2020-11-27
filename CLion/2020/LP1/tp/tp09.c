@@ -1,5 +1,6 @@
 #include "tp09.h"
-
+//Contem Erros
+/*
 int main_tp09(int argc, const char * argv[]){
     struct pt p1 = {1,1}, p2 = {2,3};
     RECT r1 = { {1,1}, {2,3}};
@@ -117,3 +118,4 @@ struct pt prep_stack_node_points(const STACK_NODE_POINTS *psnp, int delta){
     return pnp->info;
 
 }
+ */

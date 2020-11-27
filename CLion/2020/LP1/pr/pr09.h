@@ -8,7 +8,7 @@
 
 typedef struct point {
     int x, y;
-} POINT ;
+} POINT;
 
 typedef struct circle{
     POINT p;

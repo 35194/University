@@ -5,7 +5,7 @@
 #include <stdlib.h>
 
 typedef struct node_point{
-    struct pt info;
+   //ERRO struct pt info;
     struct node_point * pdwon;
 }NODE_POINT;
 

@@ -119,6 +119,12 @@
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/pr/pr09.h">
 			<Option target="LP1"/>
 		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/pr/pr10.c">
+			<Option target="LP1"/>
+		</Unit>
+		<Unit filename="C:/Users/plane/CLionProjects/LP1/pr/pr10.h">
+			<Option target="LP1"/>
+		</Unit>
 		<Unit filename="C:/Users/plane/CLionProjects/LP1/tp/tp02.c">
 			<Option target="LP1"/>
 		</Unit>
