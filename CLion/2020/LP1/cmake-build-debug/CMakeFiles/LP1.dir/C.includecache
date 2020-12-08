@@ -6,21 +6,29 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/plane/CLionProjects/LP1/pr/pr09.h
+C:/Users/Plane Master/CLionProjects/LP1/pr/pr09.h
 stdio.h
 -
 stdlib.h
 -
 
-C:/Users/plane/CLionProjects/LP1/pr/pr10.c
-pr10.h
-C:/Users/plane/CLionProjects/LP1/pr/pr10.h
-
-C:/Users/plane/CLionProjects/LP1/pr/pr10.h
+C:/Users/Plane Master/CLionProjects/LP1/pr/pr10.h
 stdio.h
 -
 stdlib.h
 -
 pr09.h
-C:/Users/plane/CLionProjects/LP1/pr/pr09.h
+C:/Users/Plane Master/CLionProjects/LP1/pr/pr09.h
+
+C:/Users/Plane Master/CLionProjects/LP1/tp/tp12.c
+tp12.h
+C:/Users/Plane Master/CLionProjects/LP1/tp/tp12.h
+../pr/pr10.h
+C:/Users/Plane Master/CLionProjects/LP1/pr/pr10.h
+
+C:/Users/Plane Master/CLionProjects/LP1/tp/tp12.h
+stdio.h
+-
+../pr/pr10.h
+C:/Users/Plane Master/CLionProjects/LP1/pr/pr10.h
 

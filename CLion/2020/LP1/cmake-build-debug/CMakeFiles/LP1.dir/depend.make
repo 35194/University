@@ -4,6 +4,7 @@
 CMakeFiles/LP1.dir/main.c.obj: ../main.c
 CMakeFiles/LP1.dir/main.c.obj: ../pr/pr09.h
 CMakeFiles/LP1.dir/main.c.obj: ../pr/pr10.h
+CMakeFiles/LP1.dir/main.c.obj: ../tp/tp12.h
 
 CMakeFiles/LP1.dir/pr/pr01.c.obj: ../pr/pr01.c
 CMakeFiles/LP1.dir/pr/pr01.c.obj: ../pr/pr01.h
@@ -54,4 +55,13 @@ CMakeFiles/LP1.dir/tp/tp07e08.c.obj: ../tp/tp07e08.h
 
 CMakeFiles/LP1.dir/tp/tp09.c.obj: ../tp/tp09.c
 CMakeFiles/LP1.dir/tp/tp09.c.obj: ../tp/tp09.h
+
+CMakeFiles/LP1.dir/tp/tp11.c.obj: ../tp/tp09.h
+CMakeFiles/LP1.dir/tp/tp11.c.obj: ../tp/tp11.c
+CMakeFiles/LP1.dir/tp/tp11.c.obj: ../tp/tp11.h
+
+CMakeFiles/LP1.dir/tp/tp12.c.obj: ../pr/pr09.h
+CMakeFiles/LP1.dir/tp/tp12.c.obj: ../pr/pr10.h
+CMakeFiles/LP1.dir/tp/tp12.c.obj: ../tp/tp12.c
+CMakeFiles/LP1.dir/tp/tp12.c.obj: ../tp/tp12.h
 

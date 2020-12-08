@@ -58,19 +58,19 @@ cmake_force:
 SHELL = cmd.exe
 
 # The CMake executable.
-CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe"
+CMAKE_COMMAND = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe"
 
 # The command to remove a file.
-RM = "C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E rm -f
+RM = "C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E rm -f
 
 # Escaping for special characters.
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = C:\Users\plane\CLionProjects\LP1
+CMAKE_SOURCE_DIR = "C:\Users\Plane Master\CLionProjects\LP1"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = C:\Users\plane\CLionProjects\LP1\cmake-build-debug
+CMAKE_BINARY_DIR = "C:\Users\Plane Master\CLionProjects\LP1\cmake-build-debug"
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -78,7 +78,7 @@ CMAKE_BINARY_DIR = C:\Users\plane\CLionProjects\LP1\cmake-build-debug
 # Special rule for the target edit_cache
 edit_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "No interactive CMake dialog available..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
+	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" -E echo "No interactive CMake dialog available."
 .PHONY : edit_cache
 
 # Special rule for the target edit_cache
@@ -89,7 +89,7 @@ edit_cache/fast: edit_cache
 # Special rule for the target rebuild_cache
 rebuild_cache:
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --cyan "Running CMake to regenerate build system..."
-	"C:\Program Files\JetBrains\CLion 2018.3.4\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
+	"C:\Program Files\JetBrains\CLion 2019.3.2\bin\cmake\win\bin\cmake.exe" --regenerate-during-build -S$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR)
 .PHONY : rebuild_cache
 
 # Special rule for the target rebuild_cache
@@ -99,9 +99,9 @@ rebuild_cache/fast: rebuild_cache
 
 # The main all target
 all: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles\progress.marks
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Plane Master\CLionProjects\LP1\cmake-build-debug\CMakeFiles" "C:\Users\Plane Master\CLionProjects\LP1\cmake-build-debug\CMakeFiles\progress.marks"
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\Makefile2 all
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\plane\CLionProjects\LP1\cmake-build-debug\CMakeFiles 0
+	$(CMAKE_COMMAND) -E cmake_progress_start "C:\Users\Plane Master\CLionProjects\LP1\cmake-build-debug\CMakeFiles" 0
 .PHONY : all
 
 # The main clean target
@@ -574,6 +574,60 @@ tp/tp09.c.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp09.c.s
 .PHONY : tp/tp09.c.s
 
+tp/tp11.obj: tp/tp11.c.obj
+
+.PHONY : tp/tp11.obj
+
+# target to build an object file
+tp/tp11.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp11.c.obj
+.PHONY : tp/tp11.c.obj
+
+tp/tp11.i: tp/tp11.c.i
+
+.PHONY : tp/tp11.i
+
+# target to preprocess a source file
+tp/tp11.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp11.c.i
+.PHONY : tp/tp11.c.i
+
+tp/tp11.s: tp/tp11.c.s
+
+.PHONY : tp/tp11.s
+
+# target to generate assembly for a file
+tp/tp11.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp11.c.s
+.PHONY : tp/tp11.c.s
+
+tp/tp12.obj: tp/tp12.c.obj
+
+.PHONY : tp/tp12.obj
+
+# target to build an object file
+tp/tp12.c.obj:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp12.c.obj
+.PHONY : tp/tp12.c.obj
+
+tp/tp12.i: tp/tp12.c.i
+
+.PHONY : tp/tp12.i
+
+# target to preprocess a source file
+tp/tp12.c.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp12.c.i
+.PHONY : tp/tp12.c.i
+
+tp/tp12.s: tp/tp12.c.s
+
+.PHONY : tp/tp12.s
+
+# target to generate assembly for a file
+tp/tp12.c.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles\LP1.dir\build.make CMakeFiles/LP1.dir/tp/tp12.c.s
+.PHONY : tp/tp12.c.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -631,6 +685,12 @@ help:
 	@echo ... tp/tp09.obj
 	@echo ... tp/tp09.i
 	@echo ... tp/tp09.s
+	@echo ... tp/tp11.obj
+	@echo ... tp/tp11.i
+	@echo ... tp/tp11.s
+	@echo ... tp/tp12.obj
+	@echo ... tp/tp12.i
+	@echo ... tp/tp12.s
 .PHONY : help
 
 
