@@ -6,29 +6,41 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/Plane Master/CLionProjects/LP1/pr/pr09.h
+C:/Users/plane/CLionProjects/LP1/main.c
+tp/tp13.h
+C:/Users/plane/CLionProjects/LP1/tp/tp13.h
+
+C:/Users/plane/CLionProjects/LP1/pr/pr12.h
+stdlib.h
+-
+string.h
+-
+stdio.h
+-
+../tp/tp11.h
+C:/Users/plane/CLionProjects/LP1/tp/tp11.h
+
+C:/Users/plane/CLionProjects/LP1/tp/tp11.h
 stdio.h
 -
 stdlib.h
 -
+string.h
+-
 
-C:/Users/Plane Master/CLionProjects/LP1/pr/pr10.h
+C:/Users/plane/CLionProjects/LP1/tp/tp13.c
+tp13.h
+C:/Users/plane/CLionProjects/LP1/tp/tp13.h
+
+C:/Users/plane/CLionProjects/LP1/tp/tp13.h
 stdio.h
 -
 stdlib.h
 -
-pr09.h
-C:/Users/Plane Master/CLionProjects/LP1/pr/pr09.h
-
-C:/Users/Plane Master/CLionProjects/LP1/tp/tp12.c
-tp12.h
-C:/Users/Plane Master/CLionProjects/LP1/tp/tp12.h
-../pr/pr10.h
-C:/Users/Plane Master/CLionProjects/LP1/pr/pr10.h
-
-C:/Users/Plane Master/CLionProjects/LP1/tp/tp12.h
-stdio.h
+string.h
 -
-../pr/pr10.h
-C:/Users/Plane Master/CLionProjects/LP1/pr/pr10.h
+tp11.h
+C:/Users/plane/CLionProjects/LP1/tp/tp11.h
+../pr/pr12.h
+C:/Users/plane/CLionProjects/LP1/pr/pr12.h
 

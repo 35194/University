@@ -66,7 +66,7 @@ char* replace_char_by_char(char str[], char o, char r){
 
 char* remove_chars(char str[], char sub[]){
     for(int i = 0; i < str[i] != '\0'; ++i){
-        if(str[i] == sub){
+        if(str[i] == *(sub)){
             str[i++] == str[i];
             printf("%s\n",str);
             return str;

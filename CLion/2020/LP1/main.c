@@ -1,8 +1,8 @@
-#include "tp/tp12.h"
+#include "tp/tp13.h"
 //#include "pr/pr10.h"
 
 int main (int argc, const char *argv[])
 {
-    main_tp12(argc,argv);
+    main_tp13(argc,argv);
     return 0;
 }
