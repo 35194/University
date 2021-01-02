@@ -1,0 +1,3 @@
+C:/Users/Plane Master/CLionProjects/PortoFlats/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/Plane Master/CLionProjects/PortoFlats/cmake-build-debug/CMakeFiles/PortoFlats.dir
+C:/Users/Plane Master/CLionProjects/PortoFlats/cmake-build-debug/CMakeFiles/edit_cache.dir

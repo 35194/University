@@ -10,6 +10,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/LP1.dir/pr/pr10.c.obj"
   "CMakeFiles/LP1.dir/pr/pr11.c.obj"
   "CMakeFiles/LP1.dir/pr/pr12.c.obj"
+  "CMakeFiles/LP1.dir/pr/pr13.c.obj"
   "CMakeFiles/LP1.dir/tp/tp02.c.obj"
   "CMakeFiles/LP1.dir/tp/tp03.c.obj"
   "CMakeFiles/LP1.dir/tp/tp04.c.obj"
